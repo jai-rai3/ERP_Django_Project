@@ -1,7 +1,7 @@
-from Inventory import Product
+from Inventory_Control import Product
 from Procurement import Supplier, PurchaseOrder
 from Sales.models import Sales
-from Inventory.models import Product, Store
+from Inventory_Control.models import Product, Store
 
 
 class Facade():
